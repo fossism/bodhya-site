@@ -13,13 +13,13 @@ I started experimenting with connecting Bihar students to FOSS projects, mentors
 
 That's when I decided: I'm going all-in on this.
 
-Starting January 2026, I'm leaving my full-time, Program Director role at FOSS United to dedicate myself entirely to Bodhya. This is personal. I'm a Bihar native, and I'm committed to proving that world-class tech talent doesn't need to leave home to thrive.
+Starting January 2026, I'm leaving my full-time, Program Director role at [FOSS United](https://fossunited.org/) to dedicate myself entirely to Bodhya. This is personal. I'm a Bihar native, and I'm committed to proving that world-class tech talent doesn't need to leave home to thrive.
 
 ## Who's Behind This?
 
 Bodhya is powered by an incredible ecosystem:
 
-- [**FOSS United team & community**](https://fossunited.org): Mentorship, resources, and institutional support as I continue volunteering for FOSS United and community events like IndiaFOSS
+- **FOSS United team & community**: Mentorship, resources, and institutional support as I continue volunteering for FOSS United and community events like IndiaFOSS
 - **Industry mentors & volunteers**: Professionals across India who believe in Bihar's potential and contribute their time and expertise
 - **Community builders & educators**: People passionate about tech democratization and regional growth
 

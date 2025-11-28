@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - {{ config.title }}{% endblock %}
+
+{% block content %}
+    <main>
+        <article>
+            <h1>{{ page.title }}</h1>
+            
+            <p style="color: #666; font-size: 0.9rem; margin-bottom: 1rem;">
+                📅 {{ page.date }}
+                {% if page.taxonomies.tags %}
+                    | Tags: 
+                    {% for tag in page.taxonomies.tags %}
+                        <a href="/tags/{{ tag }}" style="text-decoration: none;">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                {% endif %}
+            </p>
+            
+            <div style="border-top: 1px solid #f0f0f0; padding-top: 1rem;">
+                {{ page.content | safe }}
+            </div>
+        </article>
+        
+        <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #f0f0f0;">
+            <p><a href="/blog" style="color: #1a1a1a; font-weight: 600;">← Back to Blog</a></p>
+        </div>
+    </main>
+{% endblock %}

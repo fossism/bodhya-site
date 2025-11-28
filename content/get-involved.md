@@ -51,8 +51,7 @@ Fill this [volunteer form](https://ee.kobotoolbox.org/x/WVN2Y2fa) to get started
 No matter which category you fall into, we'd love to hear from you.
 
 **Email:** [iamvishalarya@gmail.com](mailto:iamvishalarya@gmail.com)  
-**LinkedIn:** [Bodhya](https://www.linkedin.com/company/bodhya)  
-**Announcement:** [foss.bearblog.dev](https://foss.bearblog.dev/introducing-bodhya/)
+**Announcement:** [Blog post](/blog/introducing-bodhya/)
 
 
 *Be part of something that matters.*

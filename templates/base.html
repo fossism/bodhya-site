@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}{{ config.title }}{% endblock %}</title>
-    <style>
+<style>
         * { 
             margin: 0; 
             padding: 0; 
@@ -15,6 +15,11 @@
             scroll-behavior: smooth;
         }
         
+        :root {
+            --terracotta: #E2725B;
+            --terracotta-dark: #c45f4b;
+        }
+
         body { 
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
             line-height: 1.7;
@@ -46,7 +51,7 @@
         .logo {
             font-size: 1.5rem;
             font-weight: 700;
-            color: #1a1a1a;
+            color: var(--terracotta);
             letter-spacing: -0.5px;
         }
         
@@ -64,14 +69,14 @@
         }
         
         nav a:hover {
-            color: #1a1a1a;
+            color: var(--terracotta);
         }
         
         /* Hero Section */
         .hero {
             text-align: center;
             padding: 6rem 2rem;
-            background: linear-gradient(135deg, #f5f5f5 0%, #fafafa 100%);
+            background: linear-gradient(135deg, #fff7f4 0%, #faf3f0 100%);
         }
         
         .hero h1 {
@@ -112,24 +117,24 @@
         }
         
         .btn-primary {
-            background: #1a1a1a;
+            background: var(--terracotta);
             color: white;
         }
         
         .btn-primary:hover {
-            background: #333;
+            background: var(--terracotta-dark);
             transform: translateY(-2px);
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
         }
         
         .btn-secondary {
             background: white;
-            color: #1a1a1a;
-            border: 1.5px solid #1a1a1a;
+            color: var(--terracotta);
+            border: 1.5px solid var(--terracotta);
         }
         
         .btn-secondary:hover {
-            background: #f5f5f5;
+            background: #fff4f0;
         }
         
         /* Main Content */
@@ -178,13 +183,13 @@
         }
         
         a {
-            color: #1a1a1a;
+            color: var(--terracotta);
             text-decoration: underline;
             transition: opacity 0.3s;
         }
         
         a:hover {
-            opacity: 0.7;
+            opacity: 0.8;
         }
         
         /* Feature Cards */
@@ -203,7 +208,8 @@
         }
         
         .feature-card:hover {
-            background: #efefef;
+            background: #fff3ef;
+            border: 1px solid #f3c2b3;
             transform: translateY(-4px);
         }
         
@@ -214,18 +220,18 @@
         /* Footer */
         footer {
             background: #1a1a1a;
-            color: #999;
+            color: #ccc;
             padding: 3rem 2rem;
             text-align: center;
             margin-top: 4rem;
         }
         
         footer a {
-            color: #999;
+            color: #ccc;
         }
         
         footer a:hover {
-            color: #fff;
+            color: #ffffff;
         }
         
         .footer-content {
@@ -267,7 +273,8 @@
                 width: 100%;
             }
         }
-    </style>
+</style>
+
 </head>
 <body>
     <header>
