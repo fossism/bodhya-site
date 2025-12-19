@@ -10,3 +10,5 @@ We work on web and backend development, cloud infrastructure, and open-source fr
 ​
 
 By working with us, you get thoughtful engineering support and directly contribute to new tech opportunities for students from tier-2 and tier-3 colleges in Bihar
+
+To work with us, kindly reach out at [vishal@bodhya.net](mailto:vishal@bodhya.net).
