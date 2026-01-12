@@ -7,13 +7,13 @@ Bodhya emerged from a simple observation: Bihar has talented students, but they 
 
 ## Our Story
 
-Over 5+ years of building Free and Open Source Software communities across India at [FOSS United](https://fossunited.org), [Vishal Arya](https://in.linkedin.com/in/fossdot) came to understand something crucial: Open Source could help level the playing field. FOSS isn't just about code—it's about removing barriers. No geographic limits. No gatekeeping. Pure merit and passion.
+Over 5+ years of building Free and Open Source Software communities across India at [FOSS United](https://fossunited.org), [Vishal Arya](https://in.linkedin.com/in/fossdot) came to understand something crucial: Open Source could help level the playing field. FOSS isn't just about code, it's about removing barriers. No geographic limits. No gatekeeping. Pure merit and passion.
 
-When Vishal began connecting Bihar students to FOSS projects, mentors, and peers, the response told him something important: students didn't need charity—they needed access and confidence.
+When Vishal began connecting Bihar students to FOSS projects, mentors, and peers, the response told him something important: students didn't need charity, they needed access and confidence.
 
 That realization shaped Bodhya.
 
-Starting January 2026, Vishal is committing full-time to Bodhya, stepping away from his full-time role as Program Director role at FOSS United Foundaion. As someone from Bihar, he believes deeply that world-class tech talent exists here—it simply needs the right opportunities to flourish.
+Starting January 2026, Vishal is committing full-time to Bodhya, stepping away from his full-time role as Program Director role at FOSS United Foundaion. As someone from Bihar, he believes deeply that world-class tech talent exists here, it simply needs the right opportunities to flourish.
 
 ## Who's Behind This?
 
@@ -33,6 +33,6 @@ We will soon list the names of active volunteers here.
 
 ## Let's Build Together
 
-Whether you're a student, educator, industry professional, or just someone who believes in Bihar's potential—[there's a place for you here](/get-involved).
+Whether you're a student, educator, industry professional, or just someone who believes in Bihar's potential—[there's a place for you here](/join).
 
 **Contact:** [vishal@bodhya.net](mailto:vishal@bodhya.net)
