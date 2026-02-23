@@ -603,6 +603,9 @@ hide_title = true
             <a href="https://indialabourline.org/" target="_blank" rel="noopener noreferrer" class="client-link">
                 <img src="/labour.png" alt="India Labourline" class="client-logo-img">
             </a>
+            <a href="https://sunbirdtrust.com/" target="_blank" rel="noopener noreferrer" class="client-link">
+                <img src="/sunbird.png" alt="India Labourline" class="client-logo-img">
+            </a>
         </div>
     </div>
     <!-- section -->
