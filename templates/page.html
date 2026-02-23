@@ -4,7 +4,9 @@
 
 {% block content %}
     <main>
+        {% if not page.extra.hide_title %}
         <h1>{{ page.title }}</h1>
+        {% endif %}
         {{ page.content | safe }}
     </main>
 {% endblock %}
