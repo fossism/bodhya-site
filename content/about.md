@@ -158,15 +158,23 @@ hide_title = true
     letter-spacing: 1.5px;
     color: var(--c-text-muted);
     display: block;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
 }
-.about-supported img {
-    height: 36px;
+.about-supported-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.about-supported-logos img {
     width: auto;
-    opacity: 0.75;
+    opacity: 0.7;
     transition: opacity 0.2s;
 }
-.about-supported a:hover img {
+.about-supported-logos .logo-fossunited { height: 42px; }
+.about-supported-logos .logo-samagata { height: 29px; }
+.about-supported-logos a:hover img {
     opacity: 1;
 }
 .about-cta {
@@ -265,12 +273,6 @@ hide_title = true
             </div>
         </div>
     </div>
-    <div class="about-supported">
-        <span class="about-supported-label">Supported by</span>
-        <a href="https://fossunited.org" target="_blank" rel="noopener noreferrer">
-            <img src="/fossunited-logo.svg" alt="FOSS United">
-        </a>
-    </div>
     <div class="about-body">
         <p>Bodhya was created as a collective response to that gap. It brings together FOSS communities, industry professionals, and local educators to help students in Bihar build visibility, work on real-world open source projects, and access internships and jobs without having to leave home.</p>
         <p>Starting January 2026, Bodhya is being built full‑time as a community initiative — supported by <a href="https://fossunited.org" target="_blank" rel="noopener noreferrer">FOSS United's</a> ecosystem, volunteer mentors from across India, and students who are already proving that world‑class tech talent exists in Bihar when given the right opportunities.</p>
@@ -280,6 +282,17 @@ hide_title = true
         <div class="about-name-block">
             <h2>The Name</h2>
             <p><em>Bodhya</em> means "worthy of knowledge" or "capable of being awakened" in Sanskrit. It reflects our belief that every student has potential — they just need the right spark and opportunity.</p>
+        </div>
+    </div>
+    <div class="about-supported">
+        <span class="about-supported-label">Supported by</span>
+        <div class="about-supported-logos">
+            <a href="https://fossunited.org" target="_blank" rel="noopener noreferrer">
+                <img src="/fossunited-logo.svg" alt="FOSS United" class="logo-fossunited">
+            </a>
+            <a href="https://samagata.org" target="_blank" rel="noopener noreferrer">
+                <img src="/samagata-logo.svg" alt="Samagata" class="logo-samagata">
+            </a>
         </div>
     </div>
     <div class="about-cta">
