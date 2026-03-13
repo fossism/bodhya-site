@@ -1,0 +1,1 @@
+Run `zola build` and report any warnings or errors.

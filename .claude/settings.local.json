@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__playwright__browser_navigate",
+      "Bash(sleep 2 && open http://localhost:1111)",
+      "mcp__playwright",
+      "Bash(npx playwright:*)"
+    ]
+  }
+}

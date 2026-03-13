@@ -61,6 +61,76 @@ Two GitHub Actions workflows in `.github/workflows/`:
 
 Both require `ANTHROPIC_API_KEY` secret set in GitHub repository settings.
 
+## Claude Code Slash Commands
+
+These commands are defined in `.claude/commands/` and can be invoked with `/command-name` in Claude Code sessions. Use them as shortcuts for common development tasks.
+
+### Available Commands
+
+**`/optimize`** — Comprehensive audit across code quality, build setup, UX, and interface
+- Analyzes CSS and templates for redundancy
+- Tests responsiveness at desktop/tablet/mobile
+- Checks accessibility (color contrast, semantic HTML)
+- Verifies assets are optimized
+- Provides prioritized improvement recommendations
+
+**`/visual-check`** — Quick screenshot verification at multiple viewport sizes
+- Desktop (1920px), tablet (768px), mobile (375px)
+- Checks for visual glitches and brand consistency
+- Verifies typography and spacing
+- Use after CSS changes to verify appearance
+
+**`/build-check`** — Verify site builds successfully
+- Runs `zola build` and reports any warnings/errors
+- Checks file count and build size
+- Use before committing or deploying
+
+**`/new-content`** — Create new blog posts or pages with proper TOML frontmatter
+- Creates files in correct locations (`content/blog/` or `content/`)
+- Handles slug formatting and metadata
+- Runs verification after creation
+
+**`/seo-check`** — Audit for SEO best practices
+- Verifies frontmatter (title, description)
+- Checks heading hierarchy and internal linking
+- Validates sitemap and RSS feeds
+- Checks Open Graph meta tags
+- Reports on mobile friendliness
+
+### Typical Workflow
+
+1. **For a new feature or change:**
+   ```
+   /build-check          # Make sure it compiles
+   /visual-check         # See how it looks across devices
+   /optimize             # Comprehensive review before pushing
+   ```
+
+2. **For a new blog post:**
+   ```
+   /new-content          # Create post with proper formatting
+   /build-check          # Verify it compiles
+   /seo-check            # Check SEO optimization
+   /visual-check         # Preview appearance
+   ```
+
+3. **For pushing to production:**
+   ```
+   /build-check          # Verify clean build
+   /seo-check            # Final SEO review
+   /visual-check         # Final visual check
+   ```
+
+### Running with `/clear`
+For long dev sessions, use `/clear` between tasks to reset Claude's context. This prevents old information from influencing new work and keeps Claude focused.
+
+## What NOT to Do
+- Do NOT add npm/package.json — this is a pure Zola project
+- Do NOT create separate CSS files — all styles go in templates/base.html <style> block
+- Do NOT use Tailwind, Bootstrap or any CSS framework
+- Do NOT modify files in public/ — this is build output
+- Always run `zola build` to verify changes compile before marking done
+
 ## License
 
 CC BY SA — attribution required, derivatives must share under same license.
