@@ -416,6 +416,7 @@ hide_title = true
     text-align: center;
     font-family:'Funnel Display', sans-serif;
     width: 100%;
+    min-height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -604,7 +605,7 @@ hide_title = true
                 <img src="/labour.png" alt="India Labourline" class="client-logo-img">
             </a>
             <a href="https://sunbirdtrust.com/" target="_blank" rel="noopener noreferrer" class="client-link">
-                <img src="/sunbird.png" alt="India Labourline" class="client-logo-img">
+                <img src="/sunbird.png" alt="Sunbird Trust" class="client-logo-img">
             </a>
         </div>
     </div>
