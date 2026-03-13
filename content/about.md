@@ -149,7 +149,6 @@ hide_title = true
 .about-supported {
     text-align: center;
     padding: 40px 24px;
-    border-bottom: 1px solid var(--c-border);
 }
 .about-supported-label {
     font-family: var(--font-brand);
